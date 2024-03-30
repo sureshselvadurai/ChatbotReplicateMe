@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b74d706-b96e-4241-b2fe-f16bc006fad5" name="Changes" comment="Bot Creation">
-      <change afterPath="$PROJECT_DIR$/input/USFCA/USF BOT - Sheet1.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/USFCA/html/orientation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/USFCA/html/student_employment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/USFCA/html/studentinfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/input_data_creator/USFCA/USFCA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/input_data_creator/USFCA/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/input_data_creator/USFCA/scraper.py" afterDir="false" />
+    <list default="true" id="7b74d706-b96e-4241-b2fe-f16bc006fad5" name="Changes" comment="USF Bot">
+      <change afterPath="$PROJECT_DIR$/input/Delusion/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/Potato/PotatoData.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/replicate_bot/replicate_bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/replicate_bot/replicate_bot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +35,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.main.executor": "Debug",
+    "Python.main.executor": "Run",
     "Python.scraper.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -137,22 +130,20 @@
       <option name="project" value="LOCAL" />
       <updated>1711782534016</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="USF Bot">
+      <option name="closed" value="true" />
+      <created>1711787245007</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711787245007</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Bot Creation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bot Creation" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/replicate_bot/replicate_bot.py</url>
-          <line>33</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="USF Bot" />
+    <option name="LAST_COMMIT_MESSAGE" value="USF Bot" />
   </component>
 </project>
