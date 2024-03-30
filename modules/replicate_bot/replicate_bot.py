@@ -1,7 +1,6 @@
 from datasets import Dataset
 from modules.input_data_creator.Obama import Obama
-# from transformers import GPT2LMHeadModel, GPT2Tokenizer, Trainer, TrainingArguments
-# from transformers import DataCollatorForLanguageModeling
+from modules.input_data_creator.USFCA import USFCA
 from textblob import TextBlob  # For sentiment analysis
 from collections import Counter  # For word frequency
 
@@ -23,15 +22,6 @@ def extract_features(conv):
 
     return conv
 
-
-# def tokenize_function(conv):
-#     # Tokenize the user and bot texts separately
-#     tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
-#     user_tokens = tokenizer(conv["user"], truncation=True, padding=True)
-#     bot_tokens = tokenizer(conv["bot"], truncation=True, padding=True)
-#     return {"user_input_ids": user_tokens.input_ids, "bot_input_ids": bot_tokens.input_ids}
-
-
 class ReplicateBot:
 
     def __init__(self, person):
@@ -47,6 +37,9 @@ class ReplicateBot:
         if self.person == "Obama":
             self.data = Obama().create()
 
+        if self.person == "USFCA":
+            self.data = USFCA().create()
+
     def create_features(self):
         conversations_with_features = [extract_features(conv) for conv in self.data]
 
@@ -61,7 +54,3 @@ class ReplicateBot:
             "user_word_frequency": [conv['user_word_frequency'] for conv in conversations_with_features],
             "bot_word_frequency": [conv['bot_word_frequency'] for conv in conversations_with_features]
         }
-
-    # def tokenize(self):
-    #     dataset = Dataset.from_dict(self.training_data)
-    #     self.tokenized_dataset = dataset.map(tokenize_function, batched=True)
