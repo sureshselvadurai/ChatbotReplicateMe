@@ -1,11 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b74d706-b96e-4241-b2fe-f16bc006fad5" name="Changes" comment="" />
+    <list default="true" id="7b74d706-b96e-4241-b2fe-f16bc006fad5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/input/Obama/December 07, 2016.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/Obama/December 08, 2016.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/Obama/December 09, 2016.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/Obama/December 12, 2016.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/Obama/December 14, 2016.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/Obama/January 03, 2017.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/Obama/January 04, 2017.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/Obama/January 06, 2017.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/Obama/January 09, 2017.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/Obama/January 11, 2017.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/Obama/January 12, 2017.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/Obama/January 13, 2017.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/Obama/January 17, 2017.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/Obama/November 09, 2016.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/Obama/November 10, 2016 .txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/Obama/November 28, 2016.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/Obama/November 30, 2016.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/input_data_creator/Obama/Obama.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/input_data_creator/Obama/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/replicate_bot/replicate_bot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/utils/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/replicate_bot/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/replicate_bot/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/replicate_bot/replicate_me.py" beforeDir="false" afterPath="$PROJECT_DIR$/input/Obama/December 05, 2016.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
@@ -18,10 +58,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/sureshrajaselvadurai/PycharmProjects/Coursework/Chatbot Replicate.me/modules/input_data_creator/Obama",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modules/input_data_creator/Obama" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modules/replicate_bot" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Chatbot Replicate.me" />
@@ -63,16 +115,5 @@
       <updated>1711773597884</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
