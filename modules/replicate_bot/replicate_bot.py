@@ -39,6 +39,10 @@ class ReplicateBot:
         self.create_features()
         self.save_training_data_to_csv()
 
+        self.validate_train_data()
+        self.create_model()
+        self.validate_model()
+
     def create_data(self):
         if self.person == "Obama":
             self.data = Obama().create()
@@ -82,3 +86,17 @@ class ReplicateBot:
             for i in range(len(self.training_data["user"])):
                 row = {field: self.training_data[field][i] for field in fieldnames}
                 writer.writerow(row)
+
+    def validate_train_data(self):
+        if not self.training_data:
+            exit()
+
+    def create_model(self):
+        pass
+
+    def validate_model(self):
+        pass
+
+    @classmethod
+    def emulate(cls):
+        pass

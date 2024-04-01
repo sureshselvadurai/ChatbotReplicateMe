@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b74d706-b96e-4241-b2fe-f16bc006fad5" name="Changes" comment="PotatoData.csv">
-      <change afterPath="$PROJECT_DIR$/modules/input_data_creator/Delusion/Delusion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/input_data_creator/Delusion/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/input_data_creator/Potato/Potato.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/input_data_creator/Potato/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/Delusion/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/input/Delusion/DelusionData.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/replicate_bot/replicate_bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/replicate_bot/replicate_bot.py" afterDir="false" />
     </list>
@@ -29,26 +24,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2eORNRrCWcvjXmIw18WPOv9boIH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.main.executor": "Run",
-    "Python.scraper.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/sureshrajaselvadurai/PycharmProjects/Coursework/Chatbot Replicate.me/modules/input_data_creator",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scraper.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sureshrajaselvadurai/PycharmProjects/Coursework/Chatbot Replicate.me/modules/input_data_creator&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/modules/input_data_creator" />
@@ -153,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711788960244</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="PotatoData.csv">
+      <option name="closed" value="true" />
+      <created>1711942712352</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711942712352</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
