@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b74d706-b96e-4241-b2fe-f16bc006fad5" name="Changes" comment="USF Bot">
-      <change afterPath="$PROJECT_DIR$/input/Delusion/data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/Potato/PotatoData.csv" afterDir="false" />
+    <list default="true" id="7b74d706-b96e-4241-b2fe-f16bc006fad5" name="Changes" comment="PotatoData.csv">
+      <change afterPath="$PROJECT_DIR$/modules/input_data_creator/Delusion/Delusion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/input_data_creator/Delusion/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/input_data_creator/Potato/Potato.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/input_data_creator/Potato/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/Delusion/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/input/Delusion/DelusionData.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/replicate_bot/replicate_bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/replicate_bot/replicate_bot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +45,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/sureshrajaselvadurai/PycharmProjects/Coursework/Chatbot Replicate.me/modules/input_data_creator/USFCA",
+    "last_opened_file_path": "/Users/sureshrajaselvadurai/PycharmProjects/Coursework/Chatbot Replicate.me/modules/input_data_creator",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modules/input_data_creator" />
+      <recent name="$PROJECT_DIR$/modules/input_data_creator/Potato" />
       <recent name="$PROJECT_DIR$/modules/input_data_creator/USFCA" />
       <recent name="$PROJECT_DIR$/modules/input_data_creator/Obama" />
     </key>
@@ -138,12 +145,21 @@
       <option name="project" value="LOCAL" />
       <updated>1711787245007</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="PotatoData.csv">
+      <option name="closed" value="true" />
+      <created>1711788960244</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711788960244</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Bot Creation" />
     <MESSAGE value="USF Bot" />
-    <option name="LAST_COMMIT_MESSAGE" value="USF Bot" />
+    <MESSAGE value="PotatoData.csv" />
+    <option name="LAST_COMMIT_MESSAGE" value="PotatoData.csv" />
   </component>
 </project>
