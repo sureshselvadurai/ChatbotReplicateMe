@@ -20,6 +20,6 @@ class USFCA:
         self.data = None
 
     def create(self):
-        input_directory = f"/Users/sureshrajaselvadurai/PycharmProjects/Coursework/Chatbot Replicate.me/input/USFCA/USF BOT - Sheet1.csv"
+        input_directory = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../input/USFCA/USF BOT - Sheet1.csv"))
         self.data = parse_csv_file(input_directory)
         return self.data

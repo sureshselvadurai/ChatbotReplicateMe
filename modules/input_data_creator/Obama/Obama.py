@@ -57,6 +57,15 @@ class Obama:
         self.data = None
 
     def create(self):
-        input_directory = f"input/Obama"
+        input_directory = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../input/Obama"))
         self.data = parse_folder(input_directory)
         return self.data
+
+def main():
+    obama_instance = Obama()
+    obama_data = obama_instance.create()
+    # Do something with obama_data
+
+
+if __name__ == "__main__":
+    main()

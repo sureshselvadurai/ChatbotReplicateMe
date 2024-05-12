@@ -1,4 +1,5 @@
 import csv
+import os
 
 
 def parse_csv_file(file_path):
@@ -21,6 +22,6 @@ class Delusion:
         self.data = None
 
     def create(self):
-        input_directory = f"/Users/sureshrajaselvadurai/PycharmProjects/Coursework/Chatbot Replicate.me/input/Delusion/DelusionData.csv"
+        input_directory = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../input/Delusion/DelusionData.csv"))
         self.data = parse_csv_file(input_directory)
         return self.data
